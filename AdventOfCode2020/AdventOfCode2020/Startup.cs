@@ -30,6 +30,7 @@ namespace AdventOfCode2020
             services.AddTransient<IDay2Service, Day2Service>();
             services.AddTransient<IDay3Service, Day3Service>();
             services.AddTransient<IDay4Service, Day4Service>();
+            services.AddTransient<IDay5Service, Day5Service>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

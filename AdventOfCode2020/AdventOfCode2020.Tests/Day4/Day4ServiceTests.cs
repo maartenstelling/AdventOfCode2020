@@ -5,7 +5,7 @@ using Xunit;
 
 namespace AdventOfCode2020.Tests.Day4
 {
-    public class Day4ServiceTests
+    public class Day5ServiceTests
     {
         [Fact]
         public void CalculatePuzzle1_GivenInput_GivenOutput()
