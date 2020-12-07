@@ -1,27 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using AdventOfCode2020.Interfaces;
 using AdventOfCode2020.Utilities;
 
 namespace AdventOfCode2020.Services
 {
-    public interface IDay1Service
+    public class Day1Service : IDayService
     {
-        int Puzzle1();
-
-        int Puzzle2();
-    }
-
-    public class Day1Service : IDay1Service
-    {
-        public int Puzzle1()
+        public long Puzzle1()
         {
             var input = InputReader.Get("day1");
 
             return CalculatePuzzle1(input);
         }
 
-        public int CalculatePuzzle1(IEnumerable<string> input)
+        public long CalculatePuzzle1(IEnumerable<string> input)
         {
             var numbers = input.Select(int.Parse).ToList();
 
@@ -39,14 +33,14 @@ namespace AdventOfCode2020.Services
             throw new ArgumentException("Cannot find answer");
         }
 
-        public int Puzzle2()
+        public long Puzzle2()
         {
             var input = InputReader.Get("day1");
 
             return CalculatePuzzle2(input);
         }
 
-        public int CalculatePuzzle2(IEnumerable<string> input)
+        public long CalculatePuzzle2(IEnumerable<string> input)
         {
             var numbers = input.Select(int.Parse).ToList();
 

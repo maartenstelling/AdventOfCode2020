@@ -1,37 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj": {}
+    "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj": {}
   },
   "projects": {
-    "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj": {
+    "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj",
+        "projectUniqueName": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj",
         "projectName": "AdventOfCode2020.Tests",
-        "projectPath": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj",
-        "packagesPath": "C:\\Users\\mastelling\\.nuget\\packages\\",
-        "outputPath": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\obj\\",
+        "projectPath": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\AdventOfCode2020.Tests.csproj",
+        "packagesPath": "C:\\Users\\Maarten\\.nuget\\packages\\",
+        "outputPath": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mastelling\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Maarten\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dttnl-risk-ketenmonitoring.pkgs.visualstudio.com/_packaging/Aggregate/nuget/v3/index.json": {},
-          "https://dttnl-risk-ketenmonitoring.pkgs.visualstudio.com/_packaging/CalculationTeamArtifacts/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj": {
-                "projectPath": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj"
+              "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj": {
+                "projectPath": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj"
               }
             }
           }
@@ -87,27 +90,30 @@
         }
       }
     },
-    "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj": {
+    "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj",
+        "projectUniqueName": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj",
         "projectName": "AdventOfCode2020",
-        "projectPath": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj",
-        "packagesPath": "C:\\Users\\mastelling\\.nuget\\packages\\",
-        "outputPath": "C:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\obj\\",
+        "projectPath": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\AdventOfCode2020.csproj",
+        "packagesPath": "C:\\Users\\Maarten\\.nuget\\packages\\",
+        "outputPath": "D:\\AdventOfCode\\2020\\AdventOfCode2020\\AdventOfCode2020\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mastelling\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Maarten\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dttnl-risk-ketenmonitoring.pkgs.visualstudio.com/_packaging/Aggregate/nuget/v3/index.json": {},
-          "https://dttnl-risk-ketenmonitoring.pkgs.visualstudio.com/_packaging/CalculationTeamArtifacts/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

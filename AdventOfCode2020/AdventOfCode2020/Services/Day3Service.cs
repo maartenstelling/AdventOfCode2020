@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using AdventOfCode2020.Interfaces;
 using AdventOfCode2020.Utilities;
 
 namespace AdventOfCode2020.Services
 {
-    public interface IDay3Service
-    {
-        long Puzzle1();
-
-        long Puzzle2();
-    }
-
-    public class Day3Service : IDay3Service
+    public class Day3Service : IDayService
     {
         public long Puzzle1()
         {

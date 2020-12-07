@@ -2,18 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using AdventOfCode2020.Interfaces;
 using AdventOfCode2020.Utilities;
 
 namespace AdventOfCode2020.Services
 {
-    public interface IDay4Service
-    {
-        long Puzzle1();
-
-        long Puzzle2();
-    }
-
-    public class Day4Service : IDay4Service
+    public class Day4Service : IDayService
     {
         public long Puzzle1()
         {

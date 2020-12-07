@@ -1,3 +1,4 @@
+using AdventOfCode2020.Interfaces;
 using AdventOfCode2020.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,11 +27,7 @@ namespace AdventOfCode2020
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AdventOfCode2020", Version = "v1" });
             });
 
-            services.AddTransient<IDay1Service, Day1Service>();
-            services.AddTransient<IDay2Service, Day2Service>();
-            services.AddTransient<IDay3Service, Day3Service>();
-            services.AddTransient<IDay4Service, Day4Service>();
-            services.AddTransient<IDay5Service, Day5Service>();
+            services.AddTransient<IDayService, Day7Service>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

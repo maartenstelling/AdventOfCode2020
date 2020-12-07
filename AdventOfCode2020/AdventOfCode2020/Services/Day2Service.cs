@@ -1,27 +1,21 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using AdventOfCode2020.Interfaces;
 using AdventOfCode2020.Models;
 using AdventOfCode2020.Utilities;
 
 namespace AdventOfCode2020.Services
 {
-    public interface IDay2Service
+    public class Day2Service : IDayService
     {
-        int Puzzle1();
-
-        int Puzzle2();
-    }
-
-    public class Day2Service : IDay2Service
-    {
-        public int Puzzle1()
+        public long Puzzle1()
         {
             var input = InputReader.Get("day2");
 
             return CalculatePuzzle1(input);
         }
 
-        public int CalculatePuzzle1(IEnumerable<string> input)
+        public long CalculatePuzzle1(IEnumerable<string> input)
         {
             var policies = input.Select(GetPasswordPolicy);
             var validPasswords = 0;
@@ -48,14 +42,14 @@ namespace AdventOfCode2020.Services
                 Password = input.Split(' ').Last()
             };
         }
-        public int Puzzle2()
+        public long Puzzle2()
         {
             var input = InputReader.Get("day2");
 
             return CalculatePuzzle2(input);
         }
 
-        public int CalculatePuzzle2(IEnumerable<string> input)
+        public long CalculatePuzzle2(IEnumerable<string> input)
         {
             var policies = input.Select(GetPasswordPolicy);
             var validPasswords = 0;

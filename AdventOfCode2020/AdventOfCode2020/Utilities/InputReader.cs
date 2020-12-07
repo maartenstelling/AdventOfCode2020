@@ -7,7 +7,7 @@ namespace AdventOfCode2020.Utilities
     {
         public static IEnumerable<string> Get(string filename)
         {
-            return File.ReadAllLines($@"C:\AdventOfCode\2020\input\{filename}.txt");
+            return File.ReadAllLines($@"D:\AdventOfCode\2020\input\{filename}.txt");
         }
     }
 }

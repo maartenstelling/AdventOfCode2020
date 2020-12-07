@@ -1,29 +1,29 @@
-﻿using AdventOfCode2020.Services;
+﻿using AdventOfCode2020.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdventOfCode2020.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class Day3Controller : ControllerBase
+    public class DayController : ControllerBase
     {
-        private readonly IDay3Service _day3Service;
+        private readonly IDayService _dayService;
 
-        public Day3Controller(IDay3Service day3Service)
+        public DayController(IDayService dayService)
         {
-            _day3Service = day3Service;
+            _dayService = dayService;
         }
 
         [HttpGet("puzzle1")]
         public long GetPuzzle1()
         {
-            return _day3Service.Puzzle1();
+            return _dayService.Puzzle1();
         }
 
         [HttpGet("puzzle2")]
         public long GetPuzzle2()
         {
-            return _day3Service.Puzzle2();
+            return _dayService.Puzzle2();
         }
     }
 }
